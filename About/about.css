@@ -6,7 +6,7 @@
 .left {
 	float: left;
 	width: 45%;
-	margin: 1% 8% 0 0;
+	margin: 2% 0 0 0;
 }
 
 .left img{
@@ -14,10 +14,20 @@
 }
 
 .right {
-	margin: 0;
+	float: left;
+	width: 54%;
+	margin: 0 0 0 0;
 }
 
 .right ul,li {
 	display: block;
 	list-style-type: disc;
+}
+
+/*////////////Appdesign/////////////*/
+#mapsize {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    /* margin: 10px auto 10px; */
 }
