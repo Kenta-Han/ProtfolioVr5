@@ -1,33 +1,210 @@
-.about_main {
+h2{
+	font-size: 30px;
+	font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
+	/* font-family: “HGP行書体”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif; */
+	margin: 2% auto;
+}
+
+h3{
+  color: #fff;
+	font-size: 24px;
+}
+
+/* 書道 */
+
+/* 文字 */
+#calligraphy,#moji,#picture{
 	width: 100%;
-	margin: 0;
 }
 
-.left {
-	float: left;
-	width: 45%;
-	margin: 2% 0 0 0;
+#ring {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 0;
 }
-
-.left img{
-	width: 100%;
-}
-
-.right {
-	float: left;
-	width: 54%;
-	margin: 0 0 0 0;
-}
-
-.right ul,li {
-	display: block;
-	list-style-type: disc;
-}
-
-/*////////////Appdesign/////////////*/
-#mapsize {
+#ring_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
     width: 100%;
-    height: 600px;
-    text-align: center;
-    /* margin: 10px auto 10px; */
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#ring_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#ring:hover #ring_f {
+    top: 0;
+    left: 0;
+}
+
+/************/
+#road {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 0;
+}
+#road_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#road_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#road:hover #road_f {
+    top: 0;
+    left: 0;
+}
+
+/************/
+
+#love {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 0;
+}
+#love_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#love_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#love:hover #love_f {
+    top: 0;
+    left: 0;
+}
+
+/************/
+#fight {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 0;
+}
+#fight_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#fight_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#fight:hover #fight_f {
+    top: 0;
+    left: 0;
+}
+
+/************/
+#network {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 400px;
+    margin: 0 0 0 0;
+}
+#network_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#network_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#network:hover #network_f {
+    top: 0;
+    left: 0;
+}
+
+/************/
+#call {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    height: 400px;
+    margin: 0 0 0 0;
+}
+#call_f {
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+#call_f p {
+    width: 80%;
+    margin: 0 10% 0;
+    font-size: 16px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: #fff;
+}
+#call:hover #call_f {
+    top: 0;
+    left: 0;
 }

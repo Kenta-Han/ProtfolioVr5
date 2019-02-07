@@ -1,0 +1,46 @@
+/*/////////main//////////*/
+#main{
+    width: 100%;
+}
+
+/*Pinteres風*/
+#columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
+    width: 96%;
+    margin: 0 2% 0;
+}
+.pin {
+    display: inline-block;
+    background-color: gainsboro;
+    margin: 0 1px 5px;
+    padding: 8px;
+    opacity: 1;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.pin img {
+    width: 100%;
+}
+@media (min-width: 960px){
+    #columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+#columns:hover .pin:not(:hover) {
+    opacity: 0.3;
+}
+
+span{
+  font-size: 30px;
+  margin: 0 0 0 5%;
+}

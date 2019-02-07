@@ -108,7 +108,8 @@ nav ul li a {
   margin-bottom: 40px;
   text-align: center;
   line-height: 1.0;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Tahoma', sans-serif;
   font-weight: 100;
   font-size: 40px;
   letter-spacing: 0.05em;
@@ -259,7 +260,7 @@ nav ul li:nth-child(odd) {
 }
 nav ul li a {
   display: inline;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.1em;
 }
@@ -331,7 +332,7 @@ nav.footer {
   margin: 60px 0 0 30px;
 }
 nav.footer a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 nav.footer li {
@@ -409,3 +410,7 @@ nav.footer {
 }
 
 } /* PC向け */
+
+
+/* 追加 */
+/***********************************************/
