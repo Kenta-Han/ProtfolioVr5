@@ -1,0 +1,16 @@
+iframe {
+  width: 99%;
+  height: 315px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+	margin: 0 0 0 0;
+}
+
+.right {
+	float: left;
+	width: 50%;
+	margin: 0 0 0 0;
+}
