@@ -11,7 +11,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92255928-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-92255928-2');
@@ -27,7 +30,7 @@
         <li class="about"><a href="about.html">About</a></li>
         <li class="study"><a href="../Study/study.html">Study</a></li>
         <li class="gallery"><a href="../Gallery/gallery.html">Gallery</a></li>
-        <li class="appdesign"><a href="../AppDesign/appdesign.html">AppDesign</a></li>
+        <!--<li class="appdesign"><a href="../AppDesign/appdesign.html">AppDesign</a></li>-->
       </ul>
     </nav>
     <ul class="socialBtn">
@@ -37,9 +40,9 @@
       <li>
         <a href="https://twitter.com/KentaH_1996" target="_blank"><img src="../Main_Photo/twitter2.jpg" alt="Twitter"></a>
       </li>
-      <!-- <li>
+      <li>
         <a href="https://www.instagram.com/kenta.han_0131/" target="_blank"><img src="../Main_Photo/instagram2.png" alt="Instagram"></a>
-      </li> -->
+      </li>
       <li class="last">
         <a href="https://www.facebook.com/kenta.han.9" target="_blank"><img src="../Main_Photo/facebook2.png" alt="Facebook"></a>
       </li>
@@ -51,13 +54,29 @@
     <!-- about -->
     <section class="contBox cf">
       <h2 class="ttl large">About</h2>
-      <p class="txtBox">1996/1：中国天津市出身．<br>2009/7〜2011/3：長野県飯田市<br>2011/4〜現在：東京都江戸川区<br><br><strong>Job</strong><br>2017/8〜2018/2：Webサービス制作のインターンシップを参加<br>2018/4〜現在：大学内でTA（ティーチャーアシスト）を担当<br>2019/6〜現在：画像分析のインターンシップを参加<br><br><strong>Other</strong><br>趣味：旅行 / カメラ / 書道 / 野球（Giants）/ 水泳 ...<br>2018年旅行：福井 / 大阪×2 / 京都×3 / 奈良 / 鎌倉 / 成田山 / 箱根 / 阿蘇 / 高千穂 / 熊本 / 金沢<br>2019年旅行：長崎 / 香港 / 金沢 / 箱根 / 京都×2 / 神戸×5 / 中国(天津，南京，北京) / 仙台 / 栃木(日光，鬼怒川) / 伊豆大島 / 岡山 / 鳥取 / 島根(出雲) / 沖縄 / 北海道(札幌，小樽，余市，千歳)</p>
+      <div class="txtBox">
+        <div>
+          1996/1：中国天津市出身．<br>2009/7〜2011/3：長野県飯田市<br>2011/4〜2020/3：東京都江戸川区<br>2020/3~現在：埼玉県越谷市
+        </div>
+        <div>
+          <h3>Job</h3>
+          <p>2017/8〜2018/2：Webサービス制作のインターンシップを参加<br>2018/4〜2020/2：大学内でTA（Teaching Assistant）担当<br>2019/6〜2019/12：画像分析のインターンシップを参加<br>2020/4~現在：新社会人
+          </p>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <p>趣味：旅行 / カメラ / 書道
+            / 野球（Giants）/ 水泳 ...<br>2018年旅行：福井 / 大阪×2 / 京都×3 / 奈良 / 鎌倉 / 成田山 / 箱根 / 阿蘇 / 高千穂 / 熊本 / 金沢<br>2019年旅行：長崎 / 香港 / 金沢 / 箱根 / 京都×2 / 神戸×5 / 中国(天津，南京，北京) / 仙台 / 栃木(日光，鬼怒川) / 伊豆大島 / 岡山 / 鳥取 / 島根(出雲) / 沖縄 / 北海道(札幌，小樽，余市，千歳)<br>2020年旅行：群馬(富岡) /
+            長野(松本) / 岐阜(高山) / 山梨(富士五湖)
+          </p>
+        </div>
+      </div>
       <div class="about_main">
         <div class="left"><img src="../Main_Photo/Top/photo_03.jpg" alt=""></div>
         <div class="right">
           <ul>
             <li>工学院大学大学院　工学研究科　情報学専攻</li>
-            <li>研究室 ：<a href="http://www.ns.kogakuin.ac.jp/~wwj1019/index.html">インタラクティブメディア研究室</a></li>
+            <li>研究室 ：<a href="http://www.ns.kogakuin.ac.jp/~wwj1019/index.html" target="_blank">インタラクティブメディア研究室</a></li>
             <li>所在地 ：東京都新宿区</li>
             <li>お問い合わせ ：em18011@ns.kogakuin.ac.jp</li>
             <li>使用プログラミング言語 ：<br> Python3，MySQL，HTML5・CSS3，JavaScript，Java，Ruby on Rails...</li>
@@ -73,7 +92,9 @@
     </section>
     <section id="map">
       <div id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4891708.645554856!2d124.90455535731294!3d37.351195537856285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35edfc621e2c0e87%3A0x847194b730884031!2z5Lit6I-v5Lq65rCR5YWx5ZKM5Zu9IOWkqea0peW4giDlpKnmtKU!5e0!3m2!1sja!2sjp!4v1496027060665" frameborder="0" style="border:0" allowfullscreen id="mapsize"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4891708.645554856!2d124.90455535731294!3d37.351195537856285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35edfc621e2c0e87%3A0x847194b730884031!2z5Lit6I-v5Lq65rCR5YWx5ZKM5Zu9IOWkqea0peW4giDlpKnmtKU!5e0!3m2!1sja!2sjp!4v1496027060665"
+          frameborder="0" style="border:0" allowfullscreen id="mapsize"></iframe>
       </div>
     </section>
 
@@ -88,7 +109,7 @@
         <li class="about"><a href="about.html">About</a></li>
         <li class="study"><a href="../Study/study.html">Study</a></li>
         <li class="gallery"><a href="../Gallery/gallery.html">Gallery</a></li>
-        <li class="appdesign"><a href="../AppDesign/appdesign.html">AppDesign</a></li>
+        <!--<li class="appdesign"><a href="../AppDesign/appdesign.html">AppDesign</a></li>-->
       </ul>
     </nav>
     <p id="copyright"><small>&#169; Kenta Lab.</small></p>
